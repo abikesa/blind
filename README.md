@@ -90,7 +90,7 @@ $$
 \text{Illusion} \approx \int_{0}^{\infty} \text{Belief}(\theta) \cdot e^{-\lambda \theta} \, d\theta
 $$
 
-And in the event of optimization failure—particularly of the salient function $ \mathcal{S}(x, y) $—the system enters irreversible recursion:
+And in the event of optimization failure—particularly of the salient function $\mathcal{S}(x, y)$ —the system enters irreversible recursion:
 
 $$
 \iint_{\Omega} \left( \frac{\partial \mathcal{S}}{\partial x} \cdot \frac{\partial \mathcal{S}}{\partial y} \right) \, dx\,dy \to \infty \quad \text{as} \quad \mathcal{S} \notin L^2(\Omega)
